@@ -1,0 +1,15 @@
+{
+    "liveServer.settings.useLocalIp": false,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    
+    
+        "liveServer.settings.host": "127.0.0.1",
+        "liveServer.settings.port": 5500,
+        
+            "liveServer.settings.wait": 0,
+            "liveServer.settings.fullReload": true
+          
+          
+      
+      
+}
