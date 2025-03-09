@@ -624,10 +624,7 @@ a {
     box-shadow: 0 0 10px rgba(244, 162, 97, 1), 0 0 10px rgba(244, 162, 97, 0.8),
       0 0 10px rgba(244, 162, 97, 0.6);
   }
-  .hero {
-    flex-direction: column;
-    /* text-align: center; */
-  }
+  
 
   .about_me button {
     margin-top: 2rem;
