@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -60,7 +61,7 @@ a {
 }
 .nav-links {
   display: flex;
-  gap: 10rem;
+  gap: 5.5rem;
 }
 .nav-links li {
   list-style: none;
@@ -99,9 +100,8 @@ a {
 
 /* ----------------------------------------------- */
 /* ---------------------------------------------------- */
-/* .hero{
+/* hero section */
 
-} */
 .hero {
   width: 100%;
   height: 90vh;
@@ -237,17 +237,53 @@ a {
 /* ------------------------------------------------------- */
 /* -------------------------------------------------- */
 
+/* About section */
 
-.hh{
-  border: 1px solid #000;
+.about{
   height: 100vh;
   width: 100%;
 }
+.about_heading{
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 5rem;
+}
+.about_heading p{
+  border: 1px solid #000;
+color:var(--highlight-color);
+padding-top: 2rem;
+}
+.about_content{
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:80%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 4rem;
+}
+.about_desc{
+  width: 50%;
+}
+.about_desc p{
+font-size: 1.4rem;
+}
+.about_image img{
+  width: 25rem;
+  box-shadow: 0 0 10px rgba(244, 162, 97, 0.8), 0 0 20px rgba(244, 162, 97, 0.5),
+    0 0 10px rgba(244, 162, 97, 0.3);
+  transition: all 0.5s ease;
+  border-radius: 10px;
 
-
-
-
-
+}
+.about_image img:hover{
+  box-shadow: 0 0 10px rgba(244, 162, 97, 1), 0 0 10px rgba(244, 162, 97, 0.8),
+    0 0 20px rgba(244, 162, 97, 0.6);
+    filter: brightness(1.2) blur(0.5px);
+}
 
 
 
@@ -313,7 +349,6 @@ a {
     font-size: 2rem;
     cursor: pointer;
     /* z-index: 9999;  */
-
   }
   .nav-links {
     z-index: 999;
@@ -634,8 +669,8 @@ a {
     /* border: 1px   solid #000; */
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
-    border-radius: 5rem;
+    gap: 1rem;
+    /* border-radius: 5rem; */
   }
   .about_me {
     max-width: 40%;
@@ -663,7 +698,6 @@ a {
     box-shadow: 0 0 10px rgba(244, 162, 97, 1), 0 0 10px rgba(244, 162, 97, 0.8),
       0 0 10px rgba(244, 162, 97, 0.6);
   }
-  
 
   .about_me button {
     margin-top: 2rem;
@@ -752,17 +786,16 @@ a {
     font-size: 3rem;
   }
   .hero .about_me .tags {
-    display: flex
-;
+    display: flex;
     /* gap: 2rem; */
     margin-top: 1rem;
     text-align: center;
     gap: 1rem;
     flex-wrap: wrap;
-}
-.about_me button {
-  margin-top: 2rem;
-}
+  }
+  .about_me button {
+    margin-top: 2rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
