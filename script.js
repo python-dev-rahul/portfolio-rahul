@@ -27,3 +27,6 @@ window.addEventListener('resize', () => {
     closeIcon.style.display = 'none';
   }
 });
+window.addEventListener("scroll", function() {
+  closeIcon.style.display = "block";  
+});
