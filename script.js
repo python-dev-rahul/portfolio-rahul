@@ -16,4 +16,13 @@ closeIcon.addEventListener('click', () => {
   closeIcon.style.display = 'none';
 });
 
-
+// Screen resize pe icons aur menu reset
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    menuIcon.style.display = 'none';
+    closeIcon.style.display = 'none';
+  } else {
+    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+  }
+});
