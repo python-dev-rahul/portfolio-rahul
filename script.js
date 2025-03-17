@@ -27,3 +27,9 @@ window.addEventListener('resize', () => {
     closeIcon.style.display = 'none';
   }
 });
+window.addEventListener("scroll", function() {
+    let closeIcon = document.querySelector(".close-icon");
+    if (closeIcon.style.display === "none") {
+        closeIcon.style.display = "block";  // Ensure kare ki hide na ho
+    }
+});
