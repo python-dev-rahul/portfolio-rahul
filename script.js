@@ -1,7 +1,6 @@
 const menuIcon = document.querySelector('.menu-icon');
 const closeIcon = document.querySelector('.close-icon');
 const navLinks = document.querySelector('.nav-links');
-const innerWidth=window.innerWidth
 // Menu open karega
 menuIcon.addEventListener('click', () => {
   navLinks.classList.add('show');
